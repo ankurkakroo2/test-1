@@ -1,0 +1,38 @@
+.search-results {
+  list-style-type: none;
+  padding: 0 24px;
+}
+
+.single-result {
+  margin-bottom: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.role-name {
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+}
+
+.skills-name,
+.aliases-name,
+.aliases-list {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+  color: #898984;
+}
+
+.results-count {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+  color: #61616b;
+  margin: 24px 0 0 24px;
+}
+
+.aliases-name {
+  margin-top: 8px;
+}

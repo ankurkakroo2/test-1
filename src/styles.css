@@ -1,0 +1,24 @@
+html,
+body,
+#root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f5;
+}
+.App {
+  max-width: 720px;
+  margin: auto;
+  font-family: sans-serif;
+  padding: 18px;
+  min-height: -webkit-fill-available;
+  min-height: -moz-available;
+  min-height: -fill-available;
+}
+
+.app-content {
+  background-color: #fff;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+}
